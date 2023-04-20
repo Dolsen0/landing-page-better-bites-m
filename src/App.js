@@ -26,7 +26,7 @@ function App() {
           </ul>
         </nav>
         <h1 className="titleMain">Delicious and Healthy Food</h1>
-        <p>Try our all-natural, organic, and locally sourced food.</p>
+        <p className="titleMain">Try our all-natural, organic, and locally sourced food.</p>
         <button>Order Now</button>
       </header>
       <section className="App-section">
