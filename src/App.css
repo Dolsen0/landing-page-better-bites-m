@@ -63,7 +63,7 @@ p {
 
 button {
   background-color: #f2ebeb;
-  color: #000;
+  color: #413939;
   font-size: 1.5rem;
   padding: 10px 20px;
   border: none;
@@ -72,8 +72,8 @@ button {
 }
 
 button:hover {
-  background-color: #424040;
-  color: #d9d0d0;
+  background-color: #413939;
+  color: #f2ebeb;
 }
 
 .App-section {
@@ -122,8 +122,8 @@ textarea {
 }
 
 button[type='submit'] {
-  background-color: #000;
-  color: #fff;
+  background-color: #f2ebeb;
+  color: #413939;
   font-size: 1.5rem;
   padding: 10px 20px;
   border: none;
@@ -132,6 +132,6 @@ button[type='submit'] {
 }
 
 button[type='submit']:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #413939;
+  color: #f2ebeb;
 }
