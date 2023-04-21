@@ -19,14 +19,15 @@ header {
 }
 
 nav {
-  position: absolute; 
+  position: fixed; 
   top: 0; 
   left: 0; 
   width: 100%;
-  padding: 20px;
+  padding: 8px;
   background-color: rgba(31, 30, 30, 0.5);
-  opacity: 0.7;
+  opacity: 0.66;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -44,6 +45,20 @@ nav li {
 
 nav li:first-child {
   font-weight: bold;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 h1 {

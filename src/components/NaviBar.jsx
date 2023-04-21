@@ -1,28 +1,26 @@
 function Navibar() {
   return (
     <nav>
-    <ul>
-      <li>Better Bites</li>
-      <li>
-        <a href="#about">
-          About
-        </a>
-      </li>
-      <li>
-      <a href="#menu">
-          Menu
-        </a>
+      <ul>
+        <li className="brand">Better Bites</li>
+        <li>
+          <a href="#about" className="nav-link">
+            About
+          </a>
         </li>
-      <li>
-      <a href="#contact">
-          Contact Us
-        </a>
+        <li>
+          <a href="#menu" className="nav-link">
+            Menu
+          </a>
         </li>
-    </ul>
-  </nav>
+        <li>
+          <a href="#contact" className="nav-link">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
 export default Navibar;
-
-// Path: src/components/Content.jsx
