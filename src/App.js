@@ -17,7 +17,7 @@ function App() {
       <section className="App-section">
         <Menu />
       </section>
-      <section className="App-section">
+      <section className="App-section" id="contactSection">
        <Contact />
       </section>
     </div>
