@@ -9,7 +9,7 @@ function Navibar() {
           </a>
         </li>
         <li>
-          <a href="#menu" className="nav-link">
+          <a href="#Menu" className="nav-link">
             Menu
           </a>
         </li>

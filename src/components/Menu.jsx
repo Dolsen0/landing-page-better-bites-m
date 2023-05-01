@@ -29,14 +29,18 @@ function Menu() {
     </li>
   ));
 
+  const handleClick = () => {
+    alert('We will be having our grand opening shortly. See you soon');
+  }
+
   return (
     <>
-      <h2>Our Menu</h2>
+      <h2 id = "Menu">Our Menu</h2>
       <div id="Menu">
       <ul id="foodMenu">{foodItems}</ul>
       <ul id="drinkMenu">{drinkItems}</ul>
       </div>
-      <button>Order Now</button>
+      <button onClick={handleClick}>Order Now</button>
     </>
   );
 }
